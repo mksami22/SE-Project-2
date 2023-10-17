@@ -183,7 +183,7 @@ gits_fetch_subparser = subparsers.add_parser("fetch")
 gits_fetch_subparser.add_argument(
     "--all", action='store_true', help="Fetch all remotes", required=False)
 gits_fetch_subparser.add_argument("--append", action='store_true',
-                                  help="Append ref names and object names of fetched refs to the existing fetch head", required=False)
+                                  help="Append references names and object names of fetched refs to the existing fetch head", required=False)
 gits_fetch_subparser.add_argument("--depth", nargs="?", default=False,
                                   help="Limit fetching to the specified number of commits", required=False)
 gits_fetch_subparser.set_defaults(func=gits_fetch)
