@@ -1,11 +1,11 @@
 import subprocess
 from subprocess import PIPE
-import helper
+
 
 def gits_fetch(args):
     """
     This function is used to download objects
-    and reference from another repository 
+    and reference from another repository
     Usage: gits fetch
            gits fetch --all
            gits fetch --append
@@ -18,8 +18,7 @@ def gits_fetch(args):
         elif args.append is True:
             arguments += ["--append"]
         elif args.depth is True:
-            arguments += [args.depth]
-        
+            arguments += [args.depth]        
         fetch_command = ["git", "fetch"] + arguments
         process1 = subprocess.Popen(fetch_command, stdout=PIPE, stderr=PIPE)
         stdout, stderr = process1.communicate()
@@ -29,4 +28,5 @@ def gits_fetch(args):
         print("ERROR: gits fetch command caught an exception")
         print("ERROR: {}".format(str(e)))
         return False
-    
+
+    return True
