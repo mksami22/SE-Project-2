@@ -17,16 +17,18 @@ def gits_fetch(args):
             arguments += ["--all"]
         elif args.append is True:
             arguments += ["--append"]
-        elif args.depth is True:
+        elif args.depth is not None:
             arguments += [args.depth]
+        if len(arguments) == 0:
+            return False
         fetch_command = ["git", "fetch"] + arguments
         process1 = subprocess.Popen(fetch_command, stdout=PIPE, stderr=PIPE)
         stdout, stderr = process1.communicate()
-        print(stdout.decode("utf-8"))
+        print(stdout)
 
     except Exception as e:
         print("ERROR: gits fetch command caught an exception")
         print("ERROR: {}".format(str(e)))
         return False
-
+    
     return True
