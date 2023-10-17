@@ -1,5 +1,5 @@
+# GITS
 
-# GITS 
 ### GIT Simplified
 
 ![GitHub](https://img.shields.io/github/license/harshitpatel96/GITS)
@@ -9,57 +9,68 @@
 
 [![DOI](https://zenodo.org/badge/295480790.svg)](https://zenodo.org/badge/latestdoi/295480790)
 
-![GitHub issues](https://img.shields.io/github/issues/harshitpatel96/GITS)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/harshitpatel96/GITS)
+![GitHub issues](https://img.shields.io/github/issues/mksami22/SE-Project-2)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/mksami22/SE-Project-2)
 
 ![Lines of code](https://img.shields.io/tokei/lines/github/harshitpatel96/GITS)
 
 [![](https://img.youtube.com/vi/6Y8_RQecnZ8/hqdefault.jpg)](https://youtu.be/6Y8_RQecnZ8 "GITS demo")
 
 # About GITS
+
 GITS streamlines most frequently performed workflows using fewer commands which is so much easier and better than usual.
 Git-Simplified AKA GITS can be thought of wrapper around major Git functionalities.
 
 # Installation for Linux
+
 1. Clone GITS Repo
 2. From the root directory run the following command
-    ```
-    pip install -r requirements.txt
-    ```
+   ```
+   pip install -r requirements.txt
+   ```
 3. Go to configurations directory and run the following command
 
-    If you are working on Linux system with a bash terminal or a Windows system using Windows subsystem for linux:
-    ```
-    bash project_init.sh
-    ```
-    If you are working on Linux system with a fish terminal:
-    ```
-    fish project_init.fish
-    ```
+   If you are working on Linux system with a bash terminal or a Windows system using Windows subsystem for linux:
+
+   ```
+   bash project_init.sh
+   ```
+
+   If you are working on Linux system with a fish terminal:
+
+   ```
+   fish project_init.fish
+   ```
+
 4. Source the bashrc file
-    ```
-    source ~/.bashrc
-    ```
-    
-    Note: Open the .bashrc file in User home directory to make sure that the alias command does not have any white spaces in the path. If so, rename the directory to remove the white spaces and re-run the setup.
+
+   ```
+   source ~/.bashrc
+   ```
+
+   Note: Open the .bashrc file in User home directory to make sure that the alias command does not have any white spaces in the path. If so, rename the directory to remove the white spaces and re-run the setup.
 
 # Installation for Windows
-1. Clone GITS Repo
-2. From the root directory run the following command
+
+1.  Clone GITS Repo
+2.  From the root directory run the following command
     ```
     pip install -r requirements.txt
     ```
-3. Currently, this project cannot be run on Windows. You need to make use of WSL to work on this project in Windows 
-although this fix would only work for systems running Windows 10. If you are using another version of Windows, using a 
-virtual machine might be preferred.
+3.  Currently, this project cannot be run on Windows. You need to make use of WSL to work on this project in Windows
+    although this fix would only work for systems running Windows 10. If you are using another version of Windows, using a
+    virtual machine might be preferred.
 
-    Please refer this link to enable WSL : https://docs.microsoft.com/en-us/windows/wsl/install-win10
+        Please refer this link to enable WSL : https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 # How to Contribute?
+
 Please take a look at our CONTRIBUTING.md where we provide instructions on contributing to the repo and help us in enhancing the current video conferencing platforms.
 
 # Documentation
+
 ## Functionalities Implemented
+
 1. [gits profile](https://github.com/harshitpatel96/GITS/blob/master/docs/profile.md)
 1. [gits rebase](https://github.com/harshitpatel96/GITS/blob/master/docs/rebase.md)
 1. [gits reset](https://github.com/harshitpatel96/GITS/blob/master/docs/reset.md)
@@ -82,25 +93,25 @@ Please take a look at our CONTRIBUTING.md where we provide instructions on contr
 1. [gits push](https://github.com/harshitpatel96/GITS/blob/master/docs/push.md)
 1. [gits pull](https://github.com/harshitpatel96/GITS/blob/master/docs/pull.md)
 
-
 ## Pydoc implementation
-We have tried to write as much documentation as possible. You can use pydoc to go through the documentation. 
-For example if you want to go through all the documentation for all files in code/ directory, do the following: 
+
+We have tried to write as much documentation as possible. You can use pydoc to go through the documentation.
+For example if you want to go through all the documentation for all files in code/ directory, do the following:
 
 `cd code`<br>
 `python3 -m pydoc -b `
 
-This will open up a browser and you can see all the files. You can click on a particular file to access the 
+This will open up a browser and you can see all the files. You can click on a particular file to access the
 documentation associated with that file.
 
 This repository is made for CSC 510 Software Engineering Course at NC State University.
 
-
 ## Experimentation setup for phase 3
 
-This project aims to ease the developers efforts while interacting with version control system Git. 
+This project aims to ease the developers efforts while interacting with version control system Git.
 Here are few motivation points behind coming up with this idea:
-- Few git command names are very misleading from the end user's perspective. Consider this, ```git checkout``` command is used for both switching the branches and removing changes present inside working directory.
+
+- Few git command names are very misleading from the end user's perspective. Consider this, `git checkout` command is used for both switching the branches and removing changes present inside working directory.
 - Based on the development practice used by various teams, there are some tasks which requires the execution of more than one command to complete the task. This process can be easily automated such that developer only need to execute a single command to get their work done.
 - There are almost always the cases that because of not much efficient syncing techniques, code pushed to the remote repository results in conflict while merging. It is always best practice to solve any such merge conflicts on the local repo rather than the remote one.
 
@@ -109,18 +120,20 @@ So, this experiment aims to compare various aspects to traditional git and our p
 
 ### Participation
 
-Basic idea here is to let the participants finish the tasks present in the tasks list mentioned below, and observe whether gits made this process easier or not. 
+Basic idea here is to let the participants finish the tasks present in the tasks list mentioned below, and observe whether gits made this process easier or not.
 This is higher level idea for this study.
 There are two ways to choose who will use git and who will use gits.
-1. If you have significant number of participants, you can divide them up into two groups. Participants from one group will use Gits to complete the set of tasks while participants from second group will use traditional Git to finish their tasks. 
-to achieve some great results, participants with lesser git knowledge should be assigned to later group who will be using git to finish their task. That would lessen the bias in observations since people would be already familiar with git rather than gits.
+
+1. If you have significant number of participants, you can divide them up into two groups. Participants from one group will use Gits to complete the set of tasks while participants from second group will use traditional Git to finish their tasks.
+   to achieve some great results, participants with lesser git knowledge should be assigned to later group who will be using git to finish their task. That would lessen the bias in observations since people would be already familiar with git rather than gits.
 2. If number of participants are limited and have enough time, you can let each participants finish the set of tasks twice. Once using traditional git and then using gits.
-However, to remove any unwanted bias here as well, divide the participants in two groups. first group should use the git first and then gits. Second group should finish the tasks using gits first and then using git.
+   However, to remove any unwanted bias here as well, divide the participants in two groups. first group should use the git first and then gits. Second group should finish the tasks using gits first and then using git.
 
 Ask each participants to setup the gits inside their local machine before starting the study using steps shown above.
 
 ### Tasks list
-Here is basic draft of the tasks that covers almost each enhancement. 
+
+Here is basic draft of the tasks that covers almost each enhancement.
 Feel free to edit this list as per your convenience. Add few tasks if you got more time for the experiment.
 
 - Create a test repository that can be used by participants to complete their tasks.
@@ -149,14 +162,17 @@ Feel free to edit this list as per your convenience. Add few tasks if you got mo
 - Last commit that is present in the main branch is not working well so you want to remove changes made by that commit entirely on both: local and remote.
 - You are doing great till now but assume a hypothetical scenario where you have made a mess in your local repo and want to delete the current repo and fork it all again.
 
-
 ### Quantitative measures
+
 Here are some measures that can help compare the results between traditional git and gits.
+
 1. Time taken to finish a particular task.
 2. Number of commands executed to complete each task.
 3. Number of time participants referred to the documentation or any other resources.
 
 ### Qualitative measures
+
 Along with quantitative measures described above, few qualitative measures can help to assess the performance better.
+
 1. Familiarity with traditional git
 2. hardness of the task
