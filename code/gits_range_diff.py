@@ -26,7 +26,7 @@ def range_diff(args):
     try:
         process = subprocess.Popen(range_diff_cmd, stdout=PIPE, stderr=PIPE)
         stdout, stderr = process.communicate()
-        print(stdout.decode("utf-8"))
+        print(stdout.decode("UTF-8"))
     except Exception as e:
         print("ERROR: git range-diff command caught an exception")
         print("ERROR: {}".format(str(e)))
