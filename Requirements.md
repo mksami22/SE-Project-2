@@ -3,13 +3,13 @@
 ## pytest
 
 **About:** A python testing tool that allows for easy implementation of small tests, with the ability to scale to complex functional testing.
-[**Website link.**](https://github.com/pytest-dev/pytest/blob/main/LICENSE)
-[**License.**](https://docs.pytest.org/en/license.html)
+[**Website link.**](https://docs.pytest.org/en/7.4.x/)
+[**License.**](https://github.com/pytest-dev/pytest/blob/main/LICENSE)
 **Mandatory:** yes
 
 ## mock
 
-**About:** A library for testing in python. Allows you to replace parts of your system under test with mock objects and make assertions about how they have been used.  
+**About:** A library for testing in python. Allows you to replace parts of your system under test with mock objects and make assertions about how they have been used.
 [**Website link.**](https://docs.python.org/3/library/unittest.mock.html)
 [**License.**](https://docs.python.org/3/license.html#history-and-license)
 **Mandatory:** yes
