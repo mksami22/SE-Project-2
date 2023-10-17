@@ -29,6 +29,7 @@ from gits_branch import gits_branch
 from gits_init import gits_init
 from gits_pull import gits_pull
 from gits_fetch import gits_fetch
+from gits_range_diff import range_diff
 from gits_revert import gits_revert
 
 logger_status = init_gits_logger()
@@ -179,12 +180,23 @@ gits_pull_subparser.add_argument("--branch", nargs="?", default=False,
 gits_pull_subparser.set_defaults(func=gits_pull)
 
 gits_fetch_subparser = subparsers.add_parser("fetch")
-gits_fetch_subparser.add_argument("--all", action='store_true', help="Fetch all remotes", required=False)
+gits_fetch_subparser.add_argument(
+    "--all", action='store_true', help="Fetch all remotes", required=False)
 gits_fetch_subparser.add_argument("--append", action='store_true',
                                   help="Append ref names and object names of fetched refs to the existing fetch head", required=False)
 gits_fetch_subparser.add_argument("--depth", nargs="?", default=False,
                                   help="Limit fetching to the specified number of commits", required=False)
 gits_fetch_subparser.set_defaults(func=gits_fetch)
+
+gits_range_diff_subparser = subparsers.add_parser('range-diff')
+gits_range_diff_subparser.add_argument('--rev1',
+                                       help='First commit', required=True)
+gits_range_diff_subparser.add_argument('--rev2',
+                                       help='Second commit', required=True)
+gits_range_diff_subparser.add_argument('--options',
+                                       help='Additional options to git range-diff command if any',
+                                       required=False)
+gits_range_diff_subparser.set_defaults(func=range_diff)
 
 gits_revert_subparser = subparsers.add_parser('revert')
 gits_revert_subparser.add_argument('commit_id', help="commit_id to revert")
