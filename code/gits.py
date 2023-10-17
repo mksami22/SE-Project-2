@@ -28,6 +28,7 @@ from gits_diff import gits_diff
 from gits_branch import gits_branch
 from gits_init import gits_init
 from gits_pull import gits_pull
+from gits_fetch import gits_fetch
 
 logger_status = init_gits_logger()
 if not logger_status:
@@ -175,6 +176,18 @@ gits_pull_subparser.add_argument("--branch", nargs="?", default=False,
                                  help="you can specify the branch you want to pull",
                                  required=False)
 gits_pull_subparser.set_defaults(func=gits_pull)
+
+gits_fetch_subparser = subparsers.add_parser("fetch")
+gits_fetch_subparser.add_argument("--all", action='store_true',
+                                 help="Fetch all remotes.",
+                                 required=False)
+gits_fetch_subparser.add_argument("--append", action='store_true',
+                                 help="Append ref names and object names of fetched refs to the existing contents of .git/FETCH_HEAD. Without this option old data in .git/FETCH_HEAD will be overwritten.",
+                                 required=False)
+gits_fetch_subparser.add_argument("--depth", nargs="?", default=False,
+                                 help="Limit fetching to the specified number of commits from the tip of each remote branch history.",
+                                 required=False)
+gits_fetch_subparser.set_defaults(func=gits_fetch)
 
 args = parser.parse_args()
 args.func(args)
