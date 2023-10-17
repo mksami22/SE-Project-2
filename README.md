@@ -12,7 +12,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/mksami22/SE-Project-2)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/mksami22/SE-Project-2)
 
-![Lines of code](https://img.shields.io/tokei/lines/github/harshitpatel96/GITS)
+![Lines of code](https://img.shields.io/tokei/lines/github/mksami22/SE-Project-2)
 
 [![](https://img.youtube.com/vi/6Y8_RQecnZ8/hqdefault.jpg)](https://youtu.be/6Y8_RQecnZ8 "GITS demo")
 
