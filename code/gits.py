@@ -29,6 +29,7 @@ from gits_branch import gits_branch
 from gits_init import gits_init
 from gits_pull import gits_pull
 from gits_fetch import gits_fetch
+from gits_revert import gits_revert
 
 logger_status = init_gits_logger()
 if not logger_status:
@@ -184,6 +185,10 @@ gits_fetch_subparser.add_argument("--append", action='store_true',
 gits_fetch_subparser.add_argument("--depth", nargs="?", default=False,
                                   help="Limit fetching to the specified number of commits", required=False)
 gits_fetch_subparser.set_defaults(func=gits_fetch)
+
+gits_revert_subparser = subparsers.add_parser('revert')
+gits_revert_subparser.add_argument('commit_id', help="commit_id to revert")
+gits_revert_subparser.set_defaults(func=gits_revert)
 
 args = parser.parse_args()
 args.func(args)
