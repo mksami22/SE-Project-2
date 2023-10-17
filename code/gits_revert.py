@@ -16,7 +16,7 @@ def gits_revert(args):
         print(stdout.decode("utf-8"))
         if stdout != b'':
             print("Note: Please commit or stash changes before revert")
-            return False        
+            return False
         revert_cmd = list()
         revert_cmd.append("git")
         revert_cmd.append("revert")
