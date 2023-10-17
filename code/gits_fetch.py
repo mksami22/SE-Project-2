@@ -18,7 +18,7 @@ def gits_fetch(args):
         elif args.append is True:
             arguments += ["--append"]
         elif args.depth is True:
-            arguments += [args.depth]     
+            arguments += [args.depth]
         fetch_command = ["git", "fetch"] + arguments
         process1 = subprocess.Popen(fetch_command, stdout=PIPE, stderr=PIPE)
         stdout, stderr = process1.communicate()
@@ -30,4 +30,3 @@ def gits_fetch(args):
         return False
 
     return True
-    
