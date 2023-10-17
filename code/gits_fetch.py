@@ -30,5 +30,5 @@ def gits_fetch(args):
         print("ERROR: gits fetch command caught an exception")
         print("ERROR: {}".format(str(e)))
         return False
-    
+
     return True
