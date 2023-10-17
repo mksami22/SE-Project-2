@@ -190,9 +190,9 @@ gits_fetch_subparser.set_defaults(func=gits_fetch)
 
 gits_range_diff_subparser = subparsers.add_parser('range-diff')
 gits_range_diff_subparser.add_argument('--rev1',
-                                       help='First commit', required=True)
+                                       help='First commit hash', required=True)
 gits_range_diff_subparser.add_argument('--rev2',
-                                       help='Second commit', required=True)
+                                       help='Second commit hash', required=True)
 gits_range_diff_subparser.add_argument('--options',
                                        help='Additional options to git range-diff command if any',
                                        required=False)
