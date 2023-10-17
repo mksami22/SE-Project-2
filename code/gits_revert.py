@@ -20,6 +20,7 @@ def gits_revert(args):
         revert_cmd = list()
         revert_cmd.append("git")
         revert_cmd.append("revert")
+        revert_cmd.append("--no-edit")
         commit_id = args.commit_id
         revert_cmd.append(commit_id)
         process1 = subprocess.Popen(revert_cmd, stdout=PIPE, stderr=PIPE)
