@@ -3,7 +3,7 @@
 ## pytest
 
 **About:** A python testing tool that allows for easy implementation of small tests, with the ability to scale to complex functional testing.
-[**Website link.**](https://docs.pytest.org/en/7.4.x/license.html)
+[**Website link.**](https://github.com/pytest-dev/pytest/blob/main/LICENSE)
 [**License.**](https://docs.pytest.org/en/license.html)
 **Mandatory:** yes
 
