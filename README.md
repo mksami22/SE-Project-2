@@ -176,3 +176,87 @@ Along with quantitative measures described above, few qualitative measures can h
 
 1. Familiarity with traditional git
 2. hardness of the task
+
+# Support
+## Discord Community
+
+Welcome to the GITS Discord community – your central hub for connecting with other GITS enthusiasts, seeking support, and collaborating with developers and contributors. Join our vibrant community by clicking the link below:
+
+[![Join Discord](https://discord.gg/XwpEJeJn)]
+
+### Discord Channels:
+
+1. **#rules 📜:**
+   - **Description:** Familiarize yourself with the rules before diving into discussions. Respect and positive vibes are the foundation of our community.
+
+2. **#updates 🚀:**
+   - **Description:** Stay in the loop with the latest news, announcements, and exciting updates about GITS.
+
+3. **#support 🛠️:**
+   - **Description:** Encounter a coding challenge or need assistance with GITS? This channel is your go-to place for community-driven support.
+
+4. **#important-links 🔗:**
+   - **Description:** Access essential links and resources, including documentation and project repositories, to enhance your GITS experience.
+
+5. **#general 🌐:**
+   - **Description:** The heart of our community! Engage in friendly discussions, share coding triumphs, and connect with other GITS enthusiasts.
+
+6. **#users 👥:**
+   - **Description:** Connect with fellow GITS users, share experiences, and seek advice in this user-centric channel.
+
+7. **#developers 👩‍💻👨‍💻 (Private):**
+   - **Description:** A private enclave for developers actively involved in shaping the technical aspects of GITS. Dive into technical discussions and coding wonders.
+
+8. **#contributors 👥👩‍💻 (Private):**
+   - **Description:** An exclusive space for elite contributors. Collaborate on top-secret projects and actively contribute to the evolution of GITS.
+
+### Roles:
+
+1. **User 👤:**
+   - **Description:** The starting point for every GITS adventurer! As a user, you have access to general channels and discussions.
+
+2. **Developer 👩‍💻👨‍💻:**
+   - **Description:** Elevated to Developer status! If you're actively involved in the development of GITS, this role opens the door to the private #developers channel.
+
+3. **Contributor 👥👩‍💻:**
+   - **Description:** The elite contributors! If you've made significant contributions to GITS, this role grants you access to the private #contributors channel.
+
+### Guidelines:
+
+1. **Respect and Positive Vibes:**
+   - **Description:** Treat others with kindness and respect. We're a diverse community with a shared passion for GITS. Let's keep the vibes positive!
+
+2. **Clear Communication:**
+   - **Description:** When seeking support or discussing ideas, provide clear and detailed information. This helps others understand your context and provide better assistance.
+
+3. **No Unauthorized Bots:**
+   - **Description:** To maintain a streamlined experience, refrain from adding unauthorized bots to the server without approval.
+
+4. **Constructive Feedback:**
+   - **Description:** Embrace the spirit of improvement! Provide constructive feedback, share your thoughts on features, and let's collectively enhance GITS.
+
+5. **Privacy and Security:**
+   - **Description:** Protect your privacy! Avoid sharing sensitive information such as passwords or personal details in public channels.
+
+6. **Have Fun! 😄:**
+   - **Description:** Lastly, let's have a blast! Share funny anecdotes, celebrate each other's victories, and make GITS a place of joy.
+
+## Support Email
+
+For more sensitive matters or issues requiring private communication, you can reach out to our support email at **gitsimplified@gmail.com**. Feel free to use this email for specific concerns or inquiries that may not be suitable for public channels.
+Guidelines for Email Communication:
+Clear Subject Line:
+
+When sending an email to support, use a clear and concise subject line that reflects the nature of your inquiry (e.g., "Technical Issue," "Bug Report," "Feature Request").
+Detailed Description:
+
+Provide a detailed description of your issue or inquiry in the body of the email. Include relevant information such as the version of GITS you are using, your operating system, and any error messages you've encountered.
+Attachments (if applicable):
+
+If your inquiry involves screenshots or additional files, feel free to attach them to the email. This can help our support team better understand and address your concern.
+Continuous Improvement:
+Your feedback and interactions with our support team contribute to the continuous improvement of GITS. We appreciate your engagement and are dedicated to delivering a positive user experience.
+
+For urgent matters or issues that require immediate attention, please use the #support channel on the Discord server in addition to sending an email.
+
+Thank you for choosing GITS, and we look forward to assisting you through our support email at gitsimplified@gmail.com.
