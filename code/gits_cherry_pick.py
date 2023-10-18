@@ -14,7 +14,7 @@ def gits_cherry_pick(args):
         cherry_pick_cmd.append("cherry-pick")
         commit_id = args.commit_id
         if not commit_id:
-            print("Faral: Please provide valid commit id")
+            print("Fatal: Please provide valid commit id")
             return False
         cherry_pick_cmd.append(commit_id)
         process1 = subprocess.Popen(cherry_pick_cmd, stdout=PIPE, stderr=PIPE)
