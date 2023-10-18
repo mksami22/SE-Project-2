@@ -34,12 +34,12 @@ def create_branch(args):
 
         # checkout new branch
         if not args.b:
-            print("Name of new branch not provided. Use -b branchName")
+            print("Name of new branch not provided. Use -branch branchName")
             return False
         checkout_feature = list()
         checkout_feature.append("git")
         checkout_feature.append("checkout")
-        checkout_feature.append("-b")
+        checkout_feature.append("-branch")
         checkout_feature.append(args.b)
         process3 = subprocess.Popen(checkout_feature, stdout=PIPE, stderr=PIPE)
         stdout, stderr = process3.communicate()
