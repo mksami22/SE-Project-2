@@ -25,6 +25,8 @@ def range_diff(args):
             commit_hash += "..."
             commit_hash += str(args.rev2)
             range_diff_cmd.append(commit_hash)
+        else:
+            return False
         if args.options:
             range_diff_cmd.append(args.options)
         process = subprocess.Popen(range_diff_cmd, stdout=PIPE, stderr=PIPE)
@@ -34,3 +36,4 @@ def range_diff(args):
         print("ERROR: git range-diff command caught an exception")
         print("ERROR: {}".format(str(e)))
         return False
+    return True
