@@ -182,7 +182,7 @@ Along with quantitative measures described above, few qualitative measures can h
 
 Welcome to the GITS Discord community – your central hub for connecting with other GITS enthusiasts, seeking support, and collaborating with developers and contributors. Join our vibrant community by clicking the link below:
 
-[![Join Discord](https://discord.gg/XwpEJeJn)]
+[Join Discord](https://discord.gg/XwpEJeJn)
 
 ### Discord Channels:
 
