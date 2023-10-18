@@ -1,7 +1,5 @@
-"""
-This code is part of the GITS (GIT Simplified) project and is licensed under MIT license (see LICENSE.txt for details). 
-Link: https://github.com/mksami22/SE-Project-2/blob/main/LICENSE
-"""
+# This code is part of the GITS (GIT Simplified) project and is licensed under MIT license (see LICENSE.txt for details).
+# Link: https://github.com/mksami22/SE-Project-2/blob/main/LICENSE
 
 #!/usr/bin/python3
 
