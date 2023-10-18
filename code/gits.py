@@ -31,6 +31,7 @@ from gits_pull import gits_pull
 from gits_fetch import gits_fetch
 from gits_range_diff import range_diff
 from gits_revert import gits_revert
+from gits_cherry_pick import gits_cherry_pick
 
 logger_status = init_gits_logger()
 if not logger_status:
@@ -201,6 +202,11 @@ gits_range_diff_subparser.set_defaults(func=range_diff)
 gits_revert_subparser = subparsers.add_parser('revert')
 gits_revert_subparser.add_argument('commit_id', help="commit_id to revert")
 gits_revert_subparser.set_defaults(func=gits_revert)
+
+gits_cherry_pick_subparser = subparsers.add_parser('cherry-pick')
+gits_cherry_pick_subparser.add_argument('commit_id',
+                                        help="commit_id to cherry-pick")
+gits_cherry_pick_subparser.set_defaults(func=gits_cherry_pick)
 
 args = parser.parse_args()
 args.func(args)
