@@ -27,7 +27,6 @@ def gits_fetch(args):
         fetch_command = ["git", "fetch"] + arguments
         process1 = subprocess.Popen(fetch_command, stdout=PIPE, stderr=PIPE)
         stdout, stderr = process1.communicate()
-        print(stdout)
 
     except Exception as e:
         print("ERROR: gits fetch command caught an exception")
