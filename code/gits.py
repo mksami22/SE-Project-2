@@ -214,7 +214,8 @@ gits_cherry_pick_subparser.set_defaults(func=gits_cherry_pick)
 
 gits_stash_parser = subparsers.add_parser('stash')
 gits_stash_parser.add_argument('--save', help='save changes')
-gits_stash_parser.add_argument('--list', help='list changes')
+gits_stash_parser.add_argument(
+    '--list', nargs='?', const=True, help='list changes')
 gits_stash_parser.add_argument('--drop', help='drop changes')
 gits_stash_parser.add_argument('--apply', help='apply changes')
 gits_stash_parser.add_argument('--pop', help='pop changes')
