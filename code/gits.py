@@ -35,6 +35,7 @@ from gits_fetch import gits_fetch
 from gits_range_diff import range_diff
 from gits_revert import gits_revert
 from gits_cherry_pick import gits_cherry_pick
+from gits_stash import stash
 
 logger_status = init_gits_logger()
 if not logger_status:
@@ -210,6 +211,15 @@ gits_cherry_pick_subparser = subparsers.add_parser('cherry-pick')
 gits_cherry_pick_subparser.add_argument('commit_id',
                                         help="commit_id to cherry-pick")
 gits_cherry_pick_subparser.set_defaults(func=gits_cherry_pick)
+
+gits_stash_parser = subparsers.add_parser('stash')
+gits_stash_parser.add_argument('--save', help='save changes')
+gits_stash_parser.add_argument('--list', help='list changes')
+gits_stash_parser.add_argument('--drop', help='drop changes')
+gits_stash_parser.add_argument('--apply', help='apply changes')
+gits_stash_parser.add_argument('--pop', help='pop changes')
+gits_stash_parser.add_argument('--clear', help='clear changes')
+gits_stash_parser.set_defaults(func=stash)
 
 args = parser.parse_args()
 args.func(args)
