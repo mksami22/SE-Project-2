@@ -15,26 +15,29 @@ def stash(args):
         stash_cmd = list()
         stash_cmd.append("git")
         stash_cmd.append("stash")
-        if args.save:
-            stash_cmd.append("save")
-            if args.save != "":
-                stash_cmd.append(args.save)
-        if args.list:
-            stash_cmd.append("list")
-        if args.drop:
-            stash_cmd.append("drop")
-            if args.drop != "":
-                stash_cmd.append(args.drop)
-        if args.apply:
-            stash_cmd.append("apply")
-            if stash_cmd != "":
-                stash_cmd.append(args.apply)
-        if args.pop:
-            stash_cmd.append("pop")
-            if args.pop != "":
-                stash_cmd.append(args.pop)
-        if args.clear:
-            stash_cmd.append("clear")
+        if len(vars(args)) > 0:
+            if args.save:
+                stash_cmd.append("save")
+                if args.save != "":
+                    stash_cmd.append(args.save)
+            if args.list:
+                stash_cmd.append("list")
+            if args.drop:
+                stash_cmd.append("drop")
+                if args.drop != "":
+                    stash_cmd.append(args.drop)
+            if args.apply:
+                stash_cmd.append("apply")
+                if stash_cmd != "":
+                    stash_cmd.append(args.apply)
+            if args.pop:
+                stash_cmd.append("pop")
+                if args.pop != "":
+                    stash_cmd.append(args.pop)
+            if args.clear:
+                stash_cmd.append("clear")
+        else:
+            pass
         process = subprocess.Popen(stash_cmd, stdout=PIPE, stderr=PIPE)
 
         stdout, stderr = process.communicate()
