@@ -3,7 +3,7 @@
 This command is used to create a new commit that undoes changes made in a previous commit.
 
 # Location of Code
-The code that implements the above-mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_revert.py).
+The code that implements the above-mentioned gits functionality is located [here](https://github.com/mksami22/SE-Project-2/blob/master/code/gits_revert.py).
 
 # Code Description
 ## Functions
