@@ -3,7 +3,7 @@
 This command is used to show the difference between any two commits.
 
 # Location of Code
-The code that implements the above-mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_range_diff.py).
+The code that implements the above-mentioned gits functionality is located [here](https://github.com/mksami22/SE-Project-2/blob/master/code/gits_range_diff.py).
 
 # Code Description
 ## Functions
