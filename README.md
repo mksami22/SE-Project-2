@@ -74,6 +74,7 @@ Please take a look at our CONTRIBUTING.md where we provide instructions on contr
 1. [gits profile](https://github.com/harshitpatel96/GITS/blob/master/docs/profile.md)
 1. [gits rebase](https://github.com/harshitpatel96/GITS/blob/master/docs/rebase.md)
 1. [gits reset](https://github.com/harshitpatel96/GITS/blob/master/docs/reset.md)
+1. [gits revert](https://github.com/harshitpatel96/GITS/blob/master/docs/revert.md)
 1. [gits upstream](https://github.com/harshitpatel96/GITS/blob/master/docs/upstream.md)
 1. [gits super reset](https://github.com/harshitpatel96/GITS/blob/master/docs/super_reset.md)
 1. [gits commit](https://github.com/harshitpatel96/GITS/blob/master/docs/commit.md)
@@ -92,6 +93,7 @@ Please take a look at our CONTRIBUTING.md where we provide instructions on contr
 1. [gits merge](https://github.com/harshitpatel96/GITS/blob/master/docs/merge.md)
 1. [gits push](https://github.com/harshitpatel96/GITS/blob/master/docs/push.md)
 1. [gits pull](https://github.com/harshitpatel96/GITS/blob/master/docs/pull.md)
+1. [gits fetch](https://github.com/harshitpatel96/GITS/blob/master/docs/fetch.md)
 
 ## Pydoc implementation
 
