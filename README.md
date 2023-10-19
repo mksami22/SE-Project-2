@@ -95,6 +95,7 @@ Please take a look at our CONTRIBUTING.md where we provide instructions on contr
 1. [gits pull](https://github.com/harshitpatel96/GITS/blob/master/docs/pull.md)
 1. [gits fetch](https://github.com/mksami22/SE-Project-2/blob/master/docs/fetch.md)
 1. [gits range diff](https://github.com/mksami22/SE-Project-2/blob/master/docs/range_diff.md)
+1. [gits cherry pick](https://github.com/mksami22/SE-Project-2/blob/master/docs/cherry_pick.md)
 
 ## Pydoc implementation
 
