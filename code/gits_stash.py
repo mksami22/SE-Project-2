@@ -9,7 +9,7 @@ from subprocess import PIPE
 
 def stash(args):
     """
-    Function that allows user to stash changes
+    Function that allows user to stash changes. Testing change.
     """
     try:
         stash_cmd = list()
