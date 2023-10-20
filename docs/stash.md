@@ -17,7 +17,8 @@ Use the command as below to see the status:
 $ gits stash branch <branchname> <stash>
 ```
 ## Options
-- '--show': Inspect modifications stashed away.
+- '--show': inspect modifications stashed away.
+
 Example:
 ```bash
 $ gits stash show [-u | --include-untracked | --only-untracked] [<diff-options>] [<stash>]
