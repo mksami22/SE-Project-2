@@ -6,6 +6,7 @@
 [![Build Status](https://app.travis-ci.com/mksami22/SE-Project-2.svg?branch=main)](https://app.travis-ci.com/mksami22/SE-Project-2)
 [![codecov](https://codecov.io/gh/mksami22/SE-Project-2/graph/badge.svg?token=HKVX8YRIRG)](https://codecov.io/gh/mksami22/SE-Project-2)
 ![YouTube Video Views](https://img.shields.io/youtube/views/6Y8_RQecnZ8?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/mksami22/SE-Project-2)
 
 [![DOI](https://zenodo.org/badge/295480790.svg)](https://zenodo.org/badge/latestdoi/295480790)
 
@@ -145,7 +146,7 @@ documentation associated with that file.
 
 This repository is made for CSC 510 Software Engineering Course at NC State University.
 
-## Experimentation setup for phase 3
+<!-- ## Experimentation setup for phase 3
 
 This project aims to ease the developers efforts while interacting with version control system Git.
 Here are few motivation points behind coming up with this idea:
@@ -214,9 +215,10 @@ Here are some measures that can help compare the results between traditional git
 Along with quantitative measures described above, few qualitative measures can help to assess the performance better.
 
 1. Familiarity with traditional git
-2. hardness of the task
+2. hardness of the task -->
 
 # Support
+
 ## Discord Community
 
 Welcome to the GITS Discord community – your central hub for connecting with other GITS enthusiasts, seeking support, and collaborating with developers and contributors. Join our vibrant community by clicking the link below:
@@ -226,24 +228,31 @@ Welcome to the GITS Discord community – your central hub for connecting with o
 ### Discord Channels:
 
 1. **#rules 📜:**
+
    - **Description:** Familiarize yourself with the rules before diving into discussions. Respect and positive vibes are the foundation of our community.
 
 2. **#updates 🚀:**
+
    - **Description:** Stay in the loop with the latest news, announcements, and exciting updates about GITS.
 
 3. **#support 🛠️:**
+
    - **Description:** Encounter a coding challenge or need assistance with GITS? This channel is your go-to place for community-driven support.
 
 4. **#important-links 🔗:**
+
    - **Description:** Access essential links and resources, including documentation and project repositories, to enhance your GITS experience.
 
 5. **#general 🌐:**
+
    - **Description:** The heart of our community! Engage in friendly discussions, share coding triumphs, and connect with other GITS enthusiasts.
 
 6. **#users 👥:**
+
    - **Description:** Connect with fellow GITS users, share experiences, and seek advice in this user-centric channel.
 
 7. **#developers 👩‍💻👨‍💻 (Private):**
+
    - **Description:** A private enclave for developers actively involved in shaping the technical aspects of GITS. Dive into technical discussions and coding wonders.
 
 8. **#contributors 👥👩‍💻 (Private):**
@@ -252,9 +261,11 @@ Welcome to the GITS Discord community – your central hub for connecting with o
 ### Roles:
 
 1. **User 👤:**
+
    - **Description:** The starting point for every GITS adventurer! As a user, you have access to general channels and discussions.
 
 2. **Developer 👩‍💻👨‍💻:**
+
    - **Description:** Elevated to Developer status! If you're actively involved in the development of GITS, this role opens the door to the private #developers channel.
 
 3. **Contributor 👥👩‍💻:**
@@ -263,18 +274,23 @@ Welcome to the GITS Discord community – your central hub for connecting with o
 ### Guidelines:
 
 1. **Respect and Positive Vibes:**
+
    - **Description:** Treat others with kindness and respect. We're a diverse community with a shared passion for GITS. Let's keep the vibes positive!
 
 2. **Clear Communication:**
+
    - **Description:** When seeking support or discussing ideas, provide clear and detailed information. This helps others understand your context and provide better assistance.
 
 3. **No Unauthorized Bots:**
+
    - **Description:** To maintain a streamlined experience, refrain from adding unauthorized bots to the server without approval.
 
 4. **Constructive Feedback:**
+
    - **Description:** Embrace the spirit of improvement! Provide constructive feedback, share your thoughts on features, and let's collectively enhance GITS.
 
 5. **Privacy and Security:**
+
    - **Description:** Protect your privacy! Avoid sharing sensitive information such as passwords or personal details in public channels.
 
 6. **Have Fun! 😄:**
