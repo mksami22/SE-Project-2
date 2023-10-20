@@ -8,7 +8,7 @@
 ![YouTube Video Views](https://img.shields.io/youtube/views/6Y8_RQecnZ8?style=social)
 ![GitHub contributors](https://img.shields.io/github/contributors/mksami22/SE-Project-2)
 
-[![DOI](https://zenodo.org/badge/295480790.svg)](https://zenodo.org/badge/latestdoi/295480790)
+[![DOI](https://zenodo.org/badge/705959317.svg)](https://zenodo.org/doi/10.5281/zenodo.10023612)
 
 ![GitHub issues](https://img.shields.io/github/issues/mksami22/SE-Project-2)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/mksami22/SE-Project-2)

@@ -4,8 +4,8 @@ setup(
     name='GITS',
     version='0.1',
     description='GITS project',
-    author='CSC510 - Group 17',
-    author_email='tagrawa3@ncsu.edu',
+    author='CSC510-Group48',
+    author_email='gitsimplified@gmail.com',
     packages=find_packages(),
     tests_require=['pytest'],
     classifiers=[
