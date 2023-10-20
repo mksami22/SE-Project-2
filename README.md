@@ -15,7 +15,7 @@
 
 [![Scc Count Badge](https://sloc.xyz/github/mksami22/SE-Project-2/)](https://github.com/mksami22/SE-Project-2/)
 
-[![](https://img.youtube.com/vi/6Y8_RQecnZ8/hqdefault.jpg)](https://youtu.be/6Y8_RQecnZ8 "GITS demo")
+[![](https://img.youtube.com/vi/6Y8_RQecnZ8/hqdefault.jpg)](https://youtu.be/zjSMAEy2GvY "GITS demo")
 
 # About GITS
 
@@ -72,18 +72,17 @@ Git-Simplified AKA GITS can be thought of wrapper around major Git functionaliti
       To avoid them accidentally linking against a Pyenv-provided Python,
       add the following line into your interactive shell's configuration:
 
-      * Bash/Zsh:
+      - Bash/Zsh:
 
-        ~~~bash
+        ```bash
         alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
-        ~~~
+        ```
 
-      * Fish:
+      - Fish:
 
-        ~~~fish
+        ```fish
         alias brew="env PATH=(string replace (pyenv root)/shims '' \"\$PATH\") brew"
-        ~~~
-
+        ```
 
 # Installation for Windows
 
