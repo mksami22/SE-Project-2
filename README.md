@@ -50,6 +50,40 @@ Git-Simplified AKA GITS can be thought of wrapper around major Git functionaliti
 
    Note: Open the .bashrc file in User home directory to make sure that the alias command does not have any white spaces in the path. If so, rename the directory to remove the white spaces and re-run the setup.
 
+5. Install pyenv
+
+   1. Consider installing with [Homebrew](https://brew.sh):
+      ```sh
+      brew update
+      brew install pyenv
+      ```
+   2. Then follow the rest of the post-installation steps, starting with
+      [Set up your shell environment for Pyenv](#set-up-your-shell-environment-for-pyenv).
+
+   3. OPTIONAL. To fix `brew doctor`'s warning _""config" scripts exist outside your system or Homebrew directories"_
+
+      If you're going to build Homebrew formulae from source that link against Python
+      like Tkinter or NumPy
+      _(This is only generally the case if you are a developer of such a formula,
+      or if you have an EOL version of MacOS for which prebuilt bottles are no longer provided
+      and you are using such a formula)._
+
+      To avoid them accidentally linking against a Pyenv-provided Python,
+      add the following line into your interactive shell's configuration:
+
+      * Bash/Zsh:
+
+        ~~~bash
+        alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+        ~~~
+
+      * Fish:
+
+        ~~~fish
+        alias brew="env PATH=(string replace (pyenv root)/shims '' \"\$PATH\") brew"
+        ~~~
+
+
 # Installation for Windows
 
 1.  Clone GITS Repo
@@ -75,6 +109,7 @@ Please take a look at our CONTRIBUTING.md where we provide instructions on contr
 1. [gits rebase](https://github.com/harshitpatel96/GITS/blob/master/docs/rebase.md)
 1. [gits reset](https://github.com/harshitpatel96/GITS/blob/master/docs/reset.md)
 1. [gits revert](https://github.com/mksami22/SE-Project-2/blob/master/docs/revert.md)
+1. [gits stash](https://github.com/mksami22/SE-Project-2/blob/master/docs/stash.md)
 1. [gits upstream](https://github.com/harshitpatel96/GITS/blob/master/docs/upstream.md)
 1. [gits super reset](https://github.com/harshitpatel96/GITS/blob/master/docs/super_reset.md)
 1. [gits commit](https://github.com/harshitpatel96/GITS/blob/master/docs/commit.md)
